@@ -39,7 +39,7 @@ export default function Categories() {
             marginTop: 5,
             backgroundColor:'#fff',
             paddingVertical:10,
-            paddingLeft:20
+            paddingLeft:20,
         }}>
         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
             {items.map((item, index) => (
